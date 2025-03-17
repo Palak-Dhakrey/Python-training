@@ -1,0 +1,52 @@
+# Variables, Statements, and Expressions: A Learning Task
+-Variables: A variable is a storage location in memory that holds a value.
+Example: x = 5
+
+-Expressions: An expression is a combination of variables, values, and operators that evaluates to a result.
+Example: x + 3 (evaluates to 8 if x = 5)
+
+-Statements: A statement is a line of code that performs an action, such as assigning a value or calling a function.
+Example: print("Hello, World!")
+
+-Data Types: Data types specify what kind of value a variable can hold (e.g., integers, strings, lists).
+Example: x = 10 (integer), name = "Alice" (string)
+
+-Type Conversions: Type conversion is the process of changing a value from one data type to another.
+Example: int("123") converts the string "123" to an integer.
+
+-Variable Naming Conventions: Python variable names should be descriptive, start with a letter or underscore, and avoid using reserved keywords.
+Example: my_variable = 10 (valid), 1variable = 10 (invalid)
+
+-Flow of Execution: The flow of execution refers to the order in which the program executes statements, including function calls.
+Example:
+def greet(): 
+    print("Hello!")  
+greet()  # Function call
+Reassigning Variables: Reassigning a variable means updating its value during the program’s execution.
+Example: x = 5; x = x + 3 (x is now 8)
+
+-Investigate Python’s dynamic typing
+meaning:
+Variable types are determined at runtime (no need to declare types explicitly).
+A variable can hold different types of values at different times.
+x = 10       # x is an integer
+print(type(x))  # <class 'int'>
+
+- Understand how Python stores variables in memory.
+When a variable is assigned a value, Python creates an object in memory.
+Each object has:
+Value (the actual data)
+Type (integer, string, etc.)
+ID (Memory Address) (unique identifier)
+The variable stores a reference (pointer) to the object, not the actual value.
+
+-Why is `total_price` a better name than `tp`?
+for clarity,readability,maintainability,self-documentation
+
+- Differentiate between statements and expressions
+Expression:
+Produces a value when evaluated.
+Can be part of a statement.
+Statement:
+Performs an action but does not return a value.
+Examples include assignments, loops, and conditionals.
